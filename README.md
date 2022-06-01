@@ -2,8 +2,8 @@ echo "Download file down - Tải xuống các tệp windows"
 wget -O w7x64.img https://bit.ly/akuhnetw7X64
 echo "Tải xuống ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip> / dev / null 2> & 1
-giải nén ngrok-stable-linux-amd64.zip> / dev / null 2> & 1
-read -p "28h2IMqbYG1FLTuy5cNf5qZbdcJ_5GFpm4nJQLbPouuno4axn"
+giải nén ngrok-stable-linux-amd64.zip> /  / null 2> & 1
+read -p "Ctrl + V Authtoken:28h2IMqbYG1FLTuy5cNf5qZbdcJ_5GFpm4nJQLbPouuno4axn" CRP
 nohup ./ngrok tcp 3388 &> / dev / null &
 echo Tải xuống tệp từ toigamo.blogspot.com
 apt-get install qemu
